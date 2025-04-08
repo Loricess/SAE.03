@@ -11,7 +11,7 @@
 Plage DHCP de 172.15.96.1 à 172.15.97.195
 
   
-### **Adresse IP** : 
+### <u>Adresse IP</u> : 
 #### **Routeur** :
 **R_P** :
 - **R_P eth0** : 172.15.101.254/22.

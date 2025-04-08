@@ -103,7 +103,7 @@ ip address add 172.9.10.1/23 dev eth0
 ip route add default via 172.9.11.254
 
 // SAdmin
-ip address add 172.9.10.3/23 dev eth0
+	ip address add 172.9.10.3/23 dev eth0
 ip route add default via 172.9.11.254
 
 // SDemo

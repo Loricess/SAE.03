@@ -1,9 +1,9 @@
-## **Adresse IP :**
+## <font color="#c00000">Adresse IP :</font>
 
-### **Réseaux**: 
-- 172.15.96.0/22 → Utilisé pour la zone client .
-- 172.15.100.0/22 → Utilisé pour la zone personnel.
-- 172.9.8.0/22  → Utilisé pour la zone serveurs.
+### <font color="#9bbb59">Réseaux: </font>
+- 172.15.96.0/22 → Utilisé pour la **zone client** .
+- 172.15.100.0/22 → Utilisé pour la **zone personnel**.
+- 172.9.8.0/22  → Utilisé pour la **zone serveurs**.
 - 192.69.9.0/24 → Passerelle R <-> R_S
 - 192.19.8.0/24 → Passerelle R <-> R_P
 - 192.12.11.0/24 → Passerelle R <-> R_C

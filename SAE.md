@@ -16,49 +16,40 @@ Plage DHCP de 172.15.96.1 à 172.15.97.195
 **R_P** :
 - **R_P eth0** : 172.15.101.254/22.
 - **R_P eth1** : 192.19.8.1/24.  
----
+
 **R_C** :
 - **R_C eth0** : 172.15.99.254/22.
 - **R_C eth1** : 192.12.11.1/24.
----
+
 **R_S** :
 - **R_S eth0** : 172.9.9.254/23.
 - **R_S eth1** : 192.69.9.1/24.
----
+
 **R_D** :
 - **R_D eth0** : 172.9.11.254/23.
 - **R_D eth1** : 172.9.9.253/23.
----
+
+**Routeur R** :
+- **R eth 1** vers R_S : 192.69.9.2/24.
+- **R eth 2** vers R_P : 192.19.8.2/24.
+- **R eth 3** vers R_C : 192.12.11.2/24
 #### **PC**:
 **Zone personnelle** ( 1024 adresses possible ) :
 - PCA : 172.15.100.1/22.
 - PCB : 172.15.100.2/22.
-- R_P eth 0 : 172.15.101.254/22.
-- R_P eth 1 : 192.19.8.1/24.  
 
 **Zone client** ( 1024 adresses possible ) :
-- R_C eth 0 : 172.15.99.254/22.
-- R_C eth 1 : 192.12.11.1/24.
 - PCC : adresses dynamique.
 - PCD : adresses dynamique.
   
 **Zone serveurs** ( 1024 adresses possible) : 
 Réseaux 1 : 172.9.8.0/23 ( 512 )
 - Sweb : 172.9.8.1/23.
-- R_S eth 0 : 172.9.9.254/23.
-- R_S eth 1 : 192.69.9.1/24.
-- R_D eth 1: 172.9.9.253/23.
 
 Réseaux 2 : 172.9.10.0/23 ( 512 ) 
 - SF : 172.9.10.1/23.
 - SDemo : 172.9.10.2/23.
 - SAdmin : 172.9.10.3/23.
-- R_D eth 0: 172.9.11.254/23.
-
-Routeur R :
-- R eth 1 vers R_S : 192.69.9.2/24.
-- R eth 2 vers R_P : 192.19.8.2/24.
-- R eth 3 vers R_C : 192.12.11.2/24
 
 ## **Commande**
 

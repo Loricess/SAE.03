@@ -46,88 +46,62 @@ Routeur R :
 
 Zone personnelle : 
 
+```
 // PCA
-
 ip route add default via 172.15.101.254
-
-  
 
 // PCB
-
 ip route add default via 172.15.101.254
 
-  
-
 // R_P
-
 ip route add default via 192.19.8.1
 
-  
-
 // R_P vers Zone serveurs
-
 ip route add 192.9.8.0 via 192.19.8.2
-
 ip route add 192.9.10.0 via 192.19.8.2
 
-  
+```
 
 Zone client: 
 
+```
 // PCC
-
 ip route add default via 172.15.99.254
-
-  
 
 // PCB
-
 ip route add default via 172.15.99.254
 
-  
-
 // R_C
-
 ip route add default via 192.12.11.1
-
+```
   
-
 Zone serveur: 172.9.8.0/22
 
-  
-
+```
 // Sweb
-
 ip route add default via 172.9.11.254
-
 ip route add 172.9.10.0 via 172.9.9.254  
   
-
 // SF
-
 ip route add default via 172.9.11.254
 
 // SAdmin
-
 ip route add default via 172.9.11.254
 
 // SDemo
-
 ip route add default via 172.9.11.254
 
 // R_D
-
 ip route add default via 172.9.9.254
-
 (ip route add 192.19.8.0 via 172.9.11.254)  
+
 // R_S 
-
 ip route add default via 192.19.8.1
-
 ip route add 192.9.10.0 via 172.9.9.253
-
 ip route add 172.15.100.0 via 192.69.2  
   
+```
+
 
 DHCP:
 

@@ -57,9 +57,11 @@ Zone personnelle : 
 
 ```
 // PCA
+ip address add 172.15.100.1/22 dev eth0
 ip route add default via 172.15.101.254
 
 // PCB
+ip address add 172.15.100.2/22 dev eth0
 ip route add default via 172.15.101.254
 
 // R_P
@@ -84,20 +86,28 @@ ip route add default via 172.15.99.254
 ip route add default via 192.12.11.1
 ```
   
-Zone serveur: 172.9.8.0/22
+Zone serveur réseau 1: 172.9.8.0/22
 
 ```
 // Sweb
+ip address add 172.9.8.1/23 dev eth0
 ip route add default via 172.9.11.254
 ip route add 172.9.10.0 via 172.9.9.254  
-  
+```
+
+Zone serveur réseau 2 :
+
+```
 // SF
+ip address add 172.9.10.1/23 dev eth0
 ip route add default via 172.9.11.254
 
 // SAdmin
+ip address add 172.9.10.3/23 dev eth0
 ip route add default via 172.9.11.254
 
 // SDemo
+ip address add 172.9.10.2/23 dev eth0
 ip route add default via 172.9.11.254
 
 // R_D

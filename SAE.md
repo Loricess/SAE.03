@@ -1,6 +1,6 @@
-### **Adresse IP :**
+## **Adresse IP :**
 
-**Réseaux**: 
+### **Réseaux**: 
 - 172.15.96.0/22 → Utilisé pour la zone client .
 - 172.15.100.0/22 → Utilisé pour la zone personnel.
 - 172.9.8.0/22  → Utilisé pour la zone serveurs.
@@ -11,7 +11,7 @@
 Plage DHCP de 172.15.96.1 à 172.15.97.195
 
   
-**Adresse IP** : 
+### **Adresse IP** : 
 Zone personnelle ( 1024 adresses possible ) :
 - PCA : 172.15.100.1/22.
 - PCB : 172.15.100.2/22.

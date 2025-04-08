@@ -42,7 +42,7 @@ Routeur R :
 - R eth 2 vers R_P : 192.19.8.2/24.
 - R eth 3 vers R_C : 192.12.11.2/24
 
-### **Commande**
+## **Commande**
 
 Zone personnelle : 
 

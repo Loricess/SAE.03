@@ -105,25 +105,22 @@ ip route add 172.15.100.0 via 192.69.2
 
 DHCP:
 
-  
-
+```
 ddns-update-style none ;
 
 subnet 172.15.96.0 netmask 255.255.252.0
-
 {
-
-range 172.15.96.1 172.15.97.195;
-
-default-lease time 21600;
-
-max lease time 43200;
-
-option router 172.15.99.254;
-
+	range 172.15.96.1 172.15.97.195;
+	default-lease time 21600;
+	max lease time 43200;
+	option router 172.15.99.254;
 }
+```
+
 
 Route : 
+
+```
 
 // Routeur principal (R)
 
@@ -165,6 +162,6 @@ ip route add 172.9.8.0/23 via 192.12.11.2
 
 ip route add 172.9.10.0/23 via 192.12.11.2
 
+```
+
   
-  
-**
